@@ -1,6 +1,9 @@
 # dev-env-setup
 
-Homebrew - ```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"```
+Homebrew - 
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
 
 - Install laravel valet ([https://wpbeaches.com/setting-up-valet-on-macos-for-local-wordpress-development/](https://wpbeaches.com/setting-up-valet-on-macos-for-local-wordpress-development/))
 - Install any text editor or IDE preferably Visual Studio Code or PhpStorm
