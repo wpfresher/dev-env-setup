@@ -4,12 +4,50 @@ Homebrew -
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
-
-- Install laravel valet ([https://wpbeaches.com/setting-up-valet-on-macos-for-local-wordpress-development/](https://wpbeaches.com/setting-up-valet-on-macos-for-local-wordpress-development/))
-- Install any text editor or IDE preferably Visual Studio Code or PhpStorm
-- Install any database view software like Sequel Pro
-- Install composer: ‘brew install composer’
-- Install node: ‘brew install node’
-- Install git: ‘brew install git’
+Composer: 
+```
+brew install composer
+```
+PHP:
+```
+brew install php
+```
+MySQL:
+```
+brew install mysql@5.7
+```
+Start MySQL:
+```
+brew services start mysql@5.7
+```
+Valet:
+```
+composer global require laravel/valet
+```
+```
+valet install
+```
+```
+valet park
+```
+Composer Path:
+```
+~/.composer/vendor/bin
+```
+WP CLI:
+```
+brew install wp-cli
+```
+WP Install:
+```
+https://github.com/relevenx/wpinstall
+```
+Node: 
+```
+brew install node
+```
+Git: 
+```
+brew install git
+```
 - Create ssh key for git: [follow this guide](https://docs.tritondatacenter.com/public-cloud/getting-started/ssh-keys/generating-an-ssh-key-manually/manually-generating-your-ssh-key-in-mac-os-x)
-- Install wp-cli: ‘brew install wp-cli’
