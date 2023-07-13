@@ -33,7 +33,7 @@ valet park
 ```
 Composer Path:
 ```
-~/.composer/vendor/bin
+export PATH=$PATH:~/.composer/vendor/bin
 ```
 WP CLI:
 ```
