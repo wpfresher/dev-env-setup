@@ -9,6 +9,10 @@ Composer:
 ```
 brew install composer
 ```
+Composer Path:
+```
+export PATH=$PATH:~/.composer/vendor/bin
+```
 PHP:
 ```
 brew install php
@@ -30,10 +34,6 @@ valet install
 ```
 ```
 valet park
-```
-Composer Path:
-```
-export PATH=$PATH:~/.composer/vendor/bin
 ```
 WP CLI:
 ```
