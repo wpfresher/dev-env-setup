@@ -24,7 +24,6 @@ brew install mysql@5.7
 ```
 brew link  mysql@5.7
 ```
-Start MySQL:
 ```
 brew services start mysql@5.7
 ```
