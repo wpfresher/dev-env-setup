@@ -52,4 +52,13 @@ Git:
 ```
 brew install git
 ```
-- Create ssh key for git: [follow this guide](https://docs.tritondatacenter.com/public-cloud/getting-started/ssh-keys/generating-an-ssh-key-manually/manually-generating-your-ssh-key-in-mac-os-x)
+Github CLI:
+```
+brew install gh
+```
+Git Config:
+```
+git config --global user.name "bappi"
+git config --global user.email "bappi.cs@gmail.com"
+```
+SSH: [Here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent?platform=mac)
