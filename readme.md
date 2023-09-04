@@ -1,4 +1,4 @@
-# dev-env-setup
+# Development environment setup
 
 Homebrew: 
 ```
