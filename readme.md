@@ -42,7 +42,7 @@ brew install wp-cli
 ```
 WP Install:
 ```
-https://github.com/relevenx/wpinstall
+https://github.com/bappi/wpinstall
 ```
 Node: 
 ```
