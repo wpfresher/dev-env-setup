@@ -8,10 +8,6 @@ Composer:
 ```
 brew install composer
 ```
-Composer Path:
-```
-export PATH=$PATH:~/.composer/vendor/bin
-```
 PHP:
 ```
 brew install php
@@ -29,6 +25,10 @@ brew services start mysql@5.7
 Valet:
 ```
 composer global require laravel/valet
+```
+Composer Path:
+```
+export PATH=$PATH:~/.composer/vendor/bin
 ```
 ```
 valet install
