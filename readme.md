@@ -85,9 +85,12 @@ Git:
 ```
 brew install git
 ```
-Github CLI:
+Github CLI (Install or Upgrade):
 ```
 brew install gh
+```
+```
+brew upgrade gh
 ```
 Git Config:
 ```
