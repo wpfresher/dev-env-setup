@@ -18,7 +18,7 @@ PHP:
 ```
 brew install php
 ```
-MySQL:
+MySQL [View Details](https://formulae.brew.sh/formula/mysql):
 ```
 brew install mysql
 ```
