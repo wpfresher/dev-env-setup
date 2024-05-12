@@ -4,7 +4,7 @@ Homebrew:
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
-Oh My ZSH - Z Shell Install:
+Oh My ZSH - Z Shell Install - [Details](https://ohmyz.sh/#install):
 
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
@@ -18,7 +18,7 @@ PHP:
 ```
 brew install php
 ```
-MySQL [View Details](https://formulae.brew.sh/formula/mysql):
+MySQL - [View Details](https://formulae.brew.sh/formula/mysql):
 ```
 brew install mysql
 ```
