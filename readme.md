@@ -27,7 +27,6 @@ Or,
 brew install mysql@5.7
 ```
 * Bellow command is not mandatory
-* 
 ```
 brew link  mysql
 ```
