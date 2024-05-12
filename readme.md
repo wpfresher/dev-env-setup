@@ -4,7 +4,7 @@ Homebrew:
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
-Oh My ZSH - Z Sheel Install:
+Oh My ZSH - Z Shell Install:
 
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
