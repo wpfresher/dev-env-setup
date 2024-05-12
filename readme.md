@@ -4,6 +4,12 @@ Homebrew:
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
+Oh My ZSH - Z Sheel Install:
+
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
 Composer: 
 ```
 brew install composer
@@ -14,11 +20,26 @@ brew install php
 ```
 MySQL:
 ```
+brew install mysql
+```
+Or,
+```
 brew install mysql@5.7
 ```
+* Bellow command is not mandatory
+* 
+```
+brew link  mysql
+```
+Or,
 ```
 brew link  mysql@5.7
 ```
+Starting MySQL as service:
+```
+brew services start mysql
+```
+or, 
 ```
 brew services start mysql@5.7
 ```
@@ -33,8 +54,21 @@ export PATH=$PATH:~/.composer/vendor/bin
 ```
 valet install
 ```
+Make a Directory, name as "Sites" or anything else:
+```
+mkdir Sites
+```
+Inside the newly created directory "Sites":
+```
+cd Sites
+```
+Park the installed valet:
 ```
 valet park
+```
+Go back to the root directory using the command "~" then:
+```
+~
 ```
 WP CLI:
 ```
@@ -59,6 +93,8 @@ brew install gh
 Git Config:
 ```
 git config --global user.name "kawsarahmedr"
+```
+```
 git config --global user.email "kawsar.ahmed...@gmail.com"
 ```
 
@@ -68,7 +104,7 @@ SSH References: [Here](https://docs.github.com/en/authentication/connecting-to-g
 
 # Generating a new SSH key:
 
-STEP 1: Open cmd terminal
+STEP 1: Open the cmd terminal
 STEP 2: Paste the text below, replacing the email used in the example with your GitHub email address.
 ```
 ssh-keygen -t ed25519 -C "your_email@gmail.com"
