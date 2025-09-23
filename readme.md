@@ -18,13 +18,22 @@ PHP:
 ```
 brew install php
 ```
+or,
+```
+brew install php@8.2
+```
+Check the php -v and link if neede
+```
+brew link --overwrite --force php@8.2
+```
+
 MySQL - [View Details](https://formulae.brew.sh/formula/mysql):
 ```
 brew install mysql
 ```
 Or,
 ```
-brew install mysql@5.7
+brew install mysql@8.0
 ```
 * Bellow command is not mandatory
 ```
@@ -32,7 +41,7 @@ brew link  mysql
 ```
 Or,
 ```
-brew link  mysql@5.7
+brew link  mysql@8.0
 ```
 Starting MySQL as service:
 ```
@@ -40,7 +49,7 @@ brew services start mysql
 ```
 or, 
 ```
-brew services start mysql@5.7
+brew services start mysql@8.0
 ```
 Valet:
 ```
