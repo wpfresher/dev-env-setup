@@ -237,11 +237,19 @@ Then install the required extension. Refer to the [Formula directory](https://gi
 
 For example, to install Xdebug on PHP 8.4:
 ```
+brew install shivammathur/extensions/xdebug@8.4
+```
+or to upgrade
+```
 brew upgrade shivammathur/extensions/xdebug@8.4
 ```
 Or,
 
-For example, to install Xdebug on PHP 8.2:
+For example, to install or upgrade Xdebug on PHP 8.2:
+```
+brew install shivammathur/extensions/xdebug@8.2
+```
+or to upgrade
 ```
 brew upgrade shivammathur/extensions/xdebug@8.2
 ```
