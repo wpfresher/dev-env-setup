@@ -175,7 +175,7 @@ ssh-add --apple-use-keychain ~/.ssh/id_ed25519
 
 > Enter passphrase for /Users/YOU/.ssh/id_ed25519:
 
-> Identity added: /Users/YOU/.ssh/id_ed25519 (your_email@gmail.com)
+> Identity added: /Users/YOU/.ssh/id_ed25519 (kawsar.ahmed...@gmail.com)
 
 # Add the SSH public key to your account on GitHub.
 
@@ -224,3 +224,36 @@ STEP 6: Select the type of key, either authentication or signing. For more infor
 STEP 7: In the "Key" field, paste your public key.
 
 STEP 8: Click Add SSH key.
+
+# Install PHP Extensions like Xdebug
+[Read more on Shivam Mathur's git repo](https://github.com/shivammathur/homebrew-extensions)
+
+STEP 1: Add Tap shivammathur/extensions:
+````
+brew tap shivammathur/extensions
+````
+
+Then install the required extension. Refer to the [Formula directory](https://github.com/shivammathur/homebrew-extensions/blob/main/Formula) for available formulas.
+
+For example, to install Xdebug on PHP 8.4:
+```
+brew upgrade shivammathur/extensions/xdebug@8.4
+```
+Or,
+
+For example, to install Xdebug on PHP 8.2:
+```
+brew upgrade shivammathur/extensions/xdebug@8.2
+```
+
+# Restart your webserver
+
+For Apache (httpd):
+```
+brew services restart httpd
+```
+
+For Nginx:
+```
+brew services restart nginx
+```
